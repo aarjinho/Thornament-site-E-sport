@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+.home-body *{
+  z-index: 1 !important;
+  font-family : 'Antonio';
+}
+html { height: 100% ;}
+.home-body{
+  background-color: #19191B !important;
+}
+
+#rectangle1{
+  z-index: 0 !important;
+  position: fixed ;
+  width: 622.17px;
+  height: 500.25px;
+  left: 90%;
+  top: 70%;
+  background: linear-gradient(#f6de00 ,#E05688);
+  filter: blur(399.682px);
+  border-radius: 311.086px;
+  transform: rotate(65.71deg);
+}
+#rectangle2{
+  z-index: 0 !important;
+  background-color: rgb(84, 84, 212);
+  position: fixed ;
+  width: 622.17px;
+  height: 500.25px;
+  left: -7%;
+  top: 10%;
+  background: linear-gradient(180deg,rgba(247,222,0,0,2911) 0% ,rgba(224,86,136,0,0615) 100%);
+  filter: blur(399.682px);
+  border-radius: 311.086px;
+  transform: rotate(65.71deg);
+}
+.home-login ,.home-create, .home-sign ,.home-play, .home-contact {
+    height: 75% ;
+    width: 140%;
+    background-color: #19191B !important;
+    border: none !important;
+    border-radius: 8px !important;
+    transition: ease-out 0.3s !important;
+    outline: none !important;
+  }
+  .home-sign{
+    border: 1px solid rgb(84, 84, 212) !important;
+  }
+  .home-create{
+    height: 100%;
+    width: 180px;
+    border: 1px solid rgb(84, 84, 212) !important;
+    white-space: nowrap;
+  }
+  .home-login:hover, .home-sign:hover{
+    box-shadow: inset 200px 0 0 0 rgb(84, 84, 212) !important;
+    cursor: pointer;
+  }
+  .home-play, .home-contact {
+    height: 100%;
+    width: 180px;
+    background-color: rgb(84, 84, 212) !important;
+  }
+.home-play:hover, .home-contact:hover {
+  border: 1px solid rgb(84, 84, 212) !important;
+  box-shadow: inset 200px 0 0 0 #19191B  !important;
+  cursor: pointer;
+}
+  .home-create:hover{
+    box-shadow: inset 280px 0 0 0 rgb(84, 84, 212) !important;
+    cursor: pointer;
+  }
+.home-container1{
+  padding-left: 8%;
+}
+.home-texte1{
+  padding-left: 10% !important;
+}
+.home-carrouselC{
+  display: inline-block;
+  width: 70px !important;
+  height: 70px !important;
+  border-radius: 40px !important;
+  background-color: rgb(84, 84, 212) !important;
+  font-size: 35px !important;
+  text-align: center !important;
+  transition: ease-out 0.3s !important;
+  padding: 9% !important;
+}
+.home-carrouselC:hover {
+  border: 1px solid rgb(84, 84, 212) !important;
+  box-shadow: inset 100px 0 0 0 #19191B  !important;
+  cursor: pointer;
+}
+.home-btn:hover {
+    box-shadow: inset 200px 0 0 0 rgb(84, 84, 212);
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.home-carousel-img0{
+    opacity: 0;
+    z-index:0;
+    position: absolute !important;
+    top : 30%;
+    left : 0px;
+    transition: all 1s ;
+}
+.home-carousel-img1{
+    z-index:0;
+    position: absolute !important;
+    top : 30%;
+    left : 0px;
+    transition: all 1s ;
+}
+.home-carousel-img2{
+    z-index: 2;
+    position: absolute !important;
+    top : 30%;
+    left : 35%;
+    transition: all 1s ;
+}
+.home-carousel-img3{
+    z-index: 2;
+    position: absolute !important;
+    top : 30%;
+    left : 75%;
+    transition: all 1s ;
+}
+.home-control-left{
+  padding-left : 7%;
+  padding-top : 8%;
+  }
+.home-control-right{
+padding-right : 7%;
+padding-top : 8%;
+}
+
+.home-Brands div:nth-child(2){
+  padding-top: 10%;
+}
+.home-Brands div:nth-child(3){
+  padding-top: 20%;
+}
+.home-Brands{
+display: flex;
+flex-direction: row;
+height: 90vh;
+}
+
+.home-containerBrands h1{
+  padding: 6%;
+}
+.home-Brands img{
+  width:  80%;
+margin: auto;
+display: block;
+}
+@media all and (max-width:500px){
+  .home-body{
+    overflow-x: hidden;
+}
+.home-login ,.home-create, .home-sign ,.home-play, .home-contact {
+  width: 140px ;
+}
+
+.home-body h1{
+  text-align: center;
+  font-size: 45px !important;
+}
+.home-buttonsmain div{
+  padding-left: 8% !important;
+  width: 40px;
+}
+.home-container1, .home-buttonsmain, .home-mainContainer{
+  width: 100% !important;
+  padding: 0 !important;
+   margin: 0 !important;
+}
+.home-buttonsmain{
+  padding-top: 10% !important;
+}
+.home-textecarousel h1{
+  font-size: 30px !important;
+}
+.home-playerimg{
+  background-image:none !important;
+  height: 300px !important;
+}
+.home-texte1 h1{
+  font-size: 30px !important;
+  text-align: left;
+  width: 50%;
+  margin: 0%;
+}
+.home-containergirlimg{
+  height: 500px !important;
+}
+.home-texte1{
+  padding-left: 7% !important;
+    width: 80% !important;
+}
+.home-texte1 h1:nth-child(2){
+  font-size: 15px !important;
+}
+.home-texte1 h1:nth-child(2) br{
+  display: none;
+}
+.home-containerBrands{
+  height: 100% !important;
+}
+.home-Brands div:nth-child(2){
+  padding-top: 0;
+}
+.home-Brands div:nth-child(3){
+  padding-top: 0;
+}
+.navbar-toggler-icon{
+  z-index: 1;
+}
+.home-Brands{
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+.home-Brands img{
+  height: 70%;
+  margin: auto;
+  display: block;
+  min-width: 200px;
+}
+.home-containerBrands h1{
+  padding: 10% !important;
+}
+.home-gameStatistic{
+  display: none;
+}
+.home-navContact{
+  height: 10vh !important;
+}
+.home-navContact div:nth-child(1){
+width: 60%;
+}
+.home-navContact div:nth-child(1) h1{
+  padding-left: 10px;
+  font-size: 15px !important;
+  text-align: left !important;
+}
+
+    .home-h1 {
+        font-size: 30px !important;
+    }
+    .home-section1{
+        height: 380px !important;
+        background-position: center !important;
+        background-size : 80% !important;
+        padding-top: 0 !important;
+    }
+    .home-bouton-container{
+        margin-top: -50px !important;
+    }
+    .home-carousel-items{
+        min-height: 225px !important;
+    }
+    .home-carrouselC{
+      display: inline-block;
+      width: 30px !important;
+      height: 30px !important;
+      font-size: 15px !important;
+      padding: 9% !important;
+    }
+    .home-control-left{
+      padding-left : 5% !important;
+      padding-top : 3% !important;
+      }
+    .home-control-right{
+    padding-right : 5% !important;
+    padding-top : 3% !important;
+    }
+}

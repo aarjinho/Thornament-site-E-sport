@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+
+html{
+  overflow-x: hidden ;
+}
+.createTournament{
+  background-color: #19191B;
+}
+.createTournamentDropdown button{
+  background-color: transparent !important;
+  border: solid 2px rgb(84, 84, 212) !important;
+  border-radius: 20px;
+  min-width: 100px !important ;
+}
+.createTournamentSuggestion p,.form-check-inline p{
+color: white;
+}
+.createTournamentSuggestion div{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #19191B;
+  color: white;
+}
+.createTournamentSuggestion{
+  margin: 0 auto;
+}
+
+.createTournament-body h4,.createTournament h3 ,.createTournament-body h5,.createTournament-body label{
+  color: aliceblue;
+font-family : 'Antonio';
+  padding: 2%;
+}
+.createTournamentCheckBox input {
+  vertical-align: middle;
+  margin-left: 3%;
+  transform: scale(2);
+}
+.createTournamentCheckBox {
+  
+font-family : 'Antonio';
+ font-size: 25px;
+ padding: 2%;
+ color: white;
+}
+.tournamentPassword{
+  padding: 6%;
+}
+.react-datetime-picker__wrapper{
+  background-color: white;
+  border: rgb(84, 84, 212);
+  width: 110%;
+  border-radius: 40px;
+}
+.createTournament-body {
+  justify-content: space-between;
+  text-align: center;
+    width: 50%; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    white-space: nowrap;
+}
+
+
+.CreateTournament{
+    margin-top: 100px;
+  }
+  .searchInputs {
+      margin-top: 10px;
+      display: flex;
+    }
+    
+    .searchInputs input {
+      background-color: transparent;
+      color: white;
+      border: solid 1px rgb(84, 84, 212);
+      border-radius: 100px;
+      font-size: 18px;
+      padding: 15px;
+      height: 40px;
+      width: 100%
+    }
+    
+    .searchIcon {
+      height: 60px;
+      width: 50px;
+      background-color: white;
+      display: grid;
+      place-items: center;
+    }
+    
+    input:focus {
+      outline: none;
+    }
+    .searchIcon svg {
+      font-size: 35px;
+    }
+    
+    .dataResult {
+      margin-top: 5px;
+      width: 300px;
+      max-height: 200px;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      overflow: hidden;
+      overflow-y: auto;
+    }
+    
+    .dataResult::-webkit-scrollbar {
+      display: none;
+    }
+    
+    .dataResult .dataItem {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      color: black;
+    }
+    
+    .dataItem:hover{
+      background-color: lightgrey;
+      cursor: pointer;
+    }
+  
+    .dataItem p {
+      margin-left: 10px;
+    }
+    a {
+      text-decoration: none;
+    }
+    
+    
+    #clearBtn {
+      cursor: pointer;
+    }

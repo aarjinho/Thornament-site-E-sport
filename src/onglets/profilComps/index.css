@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+.profilBody *{
+  font-family : 'Antonio';
+}
+.profilBody{
+    padding-top: 0%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 2%;
+    background-color: #19191B;
+    color: aliceblue;
+}
+.profilBody h1:nth-child(1){
+    padding-bottom: 6%;
+}
+.profilBody div:nth-child(7){
+    padding: 2%;
+}

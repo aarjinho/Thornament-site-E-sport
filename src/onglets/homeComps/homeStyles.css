@@ -1,0 +1,64 @@
+html { height: 100% }
+
+.home-body{
+    font-family : 'antonio';
+}
+
+.home-btn:hover {
+    box-shadow: inset 200px 0 0 0 rgb(84, 84, 212);
+    cursor: pointer;
+    transition: all .2s linear;
+}
+ 
+.home-carousel-img0{
+    opacity: 0;
+    z-index:0;
+    position: absolute !important;
+    top : 30%;
+    left : 0px;
+    transition: all 1s ;
+}
+.home-carousel-img1{
+    z-index:0;
+    position: absolute !important;
+    top : 30%;
+    left : 0px;
+    transition: all 1s ;
+}
+.home-carousel-img2{
+    z-index: 2;
+    position: absolute !important;
+    top : 30%;
+    left : 35%;
+    transition: all 1s ;
+}
+.home-carousel-img3{
+    z-index: 2;
+    position: absolute !important;
+    top : 30%;
+    left : 75%;
+    transition: all 1s ;
+}
+
+
+@media screen and (max-width:500px){
+    .home-h1 {
+        font-size: 30px !important;
+    }
+
+    .home-section1{
+        height: 380px !important;
+        background-position: center !important;
+        background-size : 80% !important;
+        padding-top: 0 !important;
+    }
+
+    .home-bouton-container{
+        margin-top: -50px !important;
+    }
+
+    .home-carousel-items{
+        min-height: 225px !important;
+    }
+
+}

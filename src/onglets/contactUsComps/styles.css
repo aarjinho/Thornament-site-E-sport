@@ -1,0 +1,14 @@
+.body{
+    font-size: 30px;
+    color: white !important;
+    background-color: black !important;
+}
+
+.bracketviewer g{
+    display: hidden;
+    z-index: -10;
+}
+
+
+  
+  

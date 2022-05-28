@@ -1,0 +1,58 @@
+.signup-body{
+    background-color: #19191B;
+}
+  .form-control{
+      background-color: transparent !important;
+      border-radius: 20px !important;
+      border: solid 2px rgb(84, 84, 212) !important;
+      color: white !important;
+  }
+  .signup-submit{
+    width: 28%;
+    height: 40px;
+    background-color: rgb(84, 84, 212) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    box-shadow: inset 0 0 0 0 #19191B !important;
+    transition: ease-out 0.3s !important;
+    outline: none !important;
+  }
+  .signup-submit:hover{
+    border: 1px solid rgb(84, 84, 212) !important;
+    box-shadow: inset 250px 0 0 0 #19191B  !important;
+    cursor: pointer;
+  }
+  .signup-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  #formBasicCheckbox, #formBasicCheckbox2{
+    background-color: transparent;
+    border: solid 2px rgb(84, 84, 212);
+  }
+
+  @media screen and (max-width:768px) {
+    .signup-ctnr{
+      margin: auto;
+      max-width :min(100% , 400px) !important;
+      background-image: url("img2.png");
+      min-height: 100vh;
+      background-size: 80%;
+      background-position: 5% bottom;
+      background-repeat: no-repeat;
+      padding-top: 25px;
+    }
+
+    .signup-img{
+      display: none;
+    }
+  }
+
+  @media screen and (max-height:700px) {  
+    .signup-ctnr{
+      background: none;
+    }
+  }

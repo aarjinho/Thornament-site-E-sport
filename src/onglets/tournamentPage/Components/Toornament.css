@@ -1,0 +1,11 @@
+.tooranament{
+    width: 100%;
+    height: auto;
+    border: 3px solid  red;
+}
+
+.reste{
+
+    display: flex;
+    flex-direction: row;
+}
